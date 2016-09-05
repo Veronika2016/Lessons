@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <style>
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: url("backgrcopy.png");
+        }
+
+        .allContent {
+            width: 840px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .header .logo {
+            width: 60px;
+            margin: 0 auto;
+            vertical-align: middle;
+            display: inline-block;
+            margin-right: 22px;
+        }
+
+        .header .brand {
+            width: 165px;
+            margin: 0 auto;
+            vertical-align: middle;
+            line-height: 51.138;
+        }
+
+        .menu {
+            margin-top: 61px;
+            margin-bottom: 22px ;
+        }
+
+
+        #navbar {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+
+        }
+
+        #navbar a {
+            color: #fff;
+            padding: 5px;
+            display: inline;
+        }
+
+        #navbar li {
+            width: 143px;
+            display:inline-block;
+        }
+
+        #navbar i {
+            margin-right: 6px;
+        }
+
+        .form {
+            width: 740px;
+            background-color: #f3f3f3;
+            border-radius: 15px;
+            margin: 20px;
+            padding-bottom: 46px;
+            padding-right: 53px;
+
+        }
+
+        .form h1 {
+            color: #0e4d66;
+            margin-left: 70px;
+            padding-top: 50px;
+
+        }
+
+        .infoHeader {
+            overflow: hidden;
+        }
+
+
+        .infoHeader .photo img {
+            width: 170px;
+            border: 1.5px solid #197499;
+            padding: 3.5px;
+            border-radius: 5px;
+            float: left;
+            margin-left: 70px;
+
+        }
+
+
+        .titles {
+            color: #0e4d66;
+            font-weight: bold;
+            float: left;
+            margin-right: 30px;
+            margin-left: 27px;
+        }
+
+        .text {
+            float: left;
+            color: #0e4d66;
+        }
+
+        .infoFooter h3 {
+            color: #0e4d66;
+            margin-left: 70px;
+            clear: both;
+            margin-top: 25px;
+            margin-bottom: 10px;
+        }
+
+        .contentFooter {
+
+            color: #0e4d66;
+            font-weight: bold;
+            float: left;
+            margin-bottom: 20px;
+
+        }
+
+        .textFooter {
+            color: #0e4d66;
+            float: left;
+            margin-bottom: 20px;
+            padding-right: 0;
+        }
+
+        .infoFooter .description {
+            margin-left: 70px;
+            font-weight: bold;
+            color: #0e4d66;
+            margin-top: 25px;
+
+        }
+
+        .infoFooter p {
+            margin-left: 70px;
+        }
+
+        .footer {
+            overflow: hidden;
+            width: 800px;
+            margin: 0 auto;
+            margin-top: 105px;
+        }
+
+        #navbar li {
+            margin-left:20px;
+        }
+
+        .footer .call {
+            width: 50%;
+            float: left;
+            padding-bottom: 20px;
+        }
+
+        .footer .studio {
+            width: 50%;
+            float: left;
+            text-align: right;
+        }
+
+
+        .footer .studio span{
+            vertical-align: middle;
+            font-size: 10px;
+            width: 100px;
+            display: inline-block;
+            text-align: left;
+            color: white;
+            margin-left: 5px;
+        }
+
+
+        .footer .studio img{
+            vertical-align: middle;
+            margin-right: 0;
+        }
+
+        .number {
+            color: #f2b01c;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .myNumber {
+            color: white;
+            font-size: 10px;
+            margin-left: 10px;
+
+        }
+
+        .design a {
+            color: #4083a9;
+        }
+
+        @media only screen and (max-width: 800px) {
+            .form {
+                width:440px;
+            }
+
+            .allContent{
+                width:500px;
+            }
+
+            .footer{
+                width: 500px;
+            }
+        }
+
+        @media only screen and (max-width: 600px) {
+            .form {
+                width:240px;
+            }
+
+            .allContent{
+                width:300px;
+            }
+
+            .footer{
+                width: 300px;
+            }
+
+            #navbar li{
+                text-align:center;
+                width: 100%;
+            }
+
+            .form{
+                margin:0
+            }
+            .infoHeader .photo img{
+                width:150px;
+            }
+
+            .infoHeader{
+                margin-top:30px;
+            }
+
+            .titles, .text{
+                float:none;
+                margin-left:70px;
+            }
+
+        }
+
+
+    </style>
+</head>
+<body>
+
+<div class="allContent">
+<div class="header">
+
+    <img class="logo" src="shapeCopy.png" alt="logo" title="logo"/>
+    <img class="brand" src="Shape72.png" alt="brand" title="brand"/>
+</div>
+
+
+<div class="menu">
+
+    <ul id="navbar">
+        <li><a href="#"><i class="fa fa-desktop" aria-hidden="true"></i>ПОРТФОЛИО</a></li>
+        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i>TWITTER</a></li>
+        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i>FACEBOOK</a></li>
+        <li><a href="#"><i class="fa fa-vk" aria-hidden="true"></i>VK</a></li>
+        <li><a href="#"><i class="fa fa-google" aria-hidden="true"></i>GOOGLE+</a></li>
+    </ul>
+
+</div>
+
+
+<div class="form">
+
+    <h1> Иванов Сергей Васильевич</h1>
+
+    <div class="infoHeader">
+            <div class="photo">
+            <img src="avatar.png" alt="avatar" title="avatar"/>
+            </div>
+
+            <div class="titles">
+                <p>Дата рождения:</p>
+                <p>Место проживания:</p>
+                <p>Семейное положение:</p>
+                <p>Опыт работы:</p>
+                <p>Образование:</p>
+            </div>
+
+            <div class="text">
+                <p>25.06.1985</p>
+                <p>г.Брянск</p>
+                <p>не женат</p>
+                <p>2 года</p>
+                <p>высшее техническое</p>
+            </div>
+    </div>
+
+    <div class="infoFooter">
+
+        <h3>Контактный данные</h3>
+        <div class="contentFooter">
+            <p>Телефон:</p>
+            <p>Email:</p>
+            <p>Skype:</p>
+        </div>
+
+        <div class="textFooter">
+            <p>+7(920)698-54-82</p>
+            <p>ivanov@sergey.ru</p>
+            <p>ivanov.s</p>
+        </div>
+
+
+        <h3>О себе</h3>
+
+        <div class="description">Личные качества </div>
+
+        <p>Есть жедание обучаться, развиваться професссионально, стремиться к карьерному росту;
+            хочу повышатьуровеньзнаний в данной области, обучаться новым технологиям и уметь применять полученные знания на практике.</p>
+        <div class="description">Ожидания от работы </div>
+        <p>Возможность профессионального роста, повышение квалификации, приемлемые условия труда.</p>
+        <div class="description">А еще я ... </div>
+        <p>Умею кататься на велосипеде и играть на гитаре. Люблю путешествовать и интересных людей.</p>
+    </div>
+</div>
+
+<div class="footer">
+
+<div class="call">
+    <span class="number">8-800-2000-600</span>
+    <span class="myNumber">мой телефон</span>
+</div>
+
+<div class="studio">
+    <img src="logoFooter.png" title="logo" alt="lodo"/>
+    <span class="design"> <a href="#"> Разработка сайта </a> - Студия "БиСтайл"</span>
+</div>
+
+
+</div>
+</div>
+</body>
+</html>
